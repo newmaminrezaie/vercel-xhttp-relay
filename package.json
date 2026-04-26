@@ -1,7 +1,14 @@
 {
   "name": "vercel-xhttp-relay",
   "version": "1.0.0",
+  "description": "XHTTP relay for Xray/V2Ray via Vercel Edge Functions",
   "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["vercel", "xray", "v2ray", "xhttp", "relay", "proxy"],
+  "author": "",
   "license": "MIT"
 }
-
